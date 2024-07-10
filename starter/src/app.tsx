@@ -11,11 +11,11 @@ const locations: Poi[] = [
 ];
 
 const App = () => (
-  <APIProvider apiKey={'AIzaSyAjWhMM2rXjPJOCZP0g9lEuifOUn-UNB6A'} onLoad={() => console.log('Maps API has loaded.')}>
+  <APIProvider apiKey={'API_KEY'} onLoad={() => console.log('Maps API has loaded.')}>
     <Map
       defaultZoom={13}
       defaultCenter={{ lat: -33.860664, lng: 151.208138 }}
-      mapId='4b2b12085c2a9b4'
+      mapId='MAP_ID'
       onCameraChanged={(ev: MapCameraChangedEvent) =>
         console.log('camera changed:', ev.detail.center, 'zoom:', ev.detail.zoom)
       }>
