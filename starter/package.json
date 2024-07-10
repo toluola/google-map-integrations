@@ -2,6 +2,7 @@
   "type": "module",
   "dependencies": {
     "@googlemaps/markerclusterer": "^2.5.1",
+    "@react-google-maps/api": "^2.19.3",
     "@vis.gl/react-google-maps": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
